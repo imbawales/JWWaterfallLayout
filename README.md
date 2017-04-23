@@ -7,9 +7,9 @@
 把demo里面的JWWaterFallLayout文件夹拖进项目即可,
 然后用JWWaterFallLayout来创建collection view,
 可以修改layout的col属性来设置有多少列, 
-可以遵守数据源代理<JWWaterFallLayoutDataSource>后用数据源方法来设置每一个cell的高度
+可以遵守数据源代理JWWaterFallLayoutDataSource后用数据源方法来设置每一个cell的高度
 
-实例代码:
+示例代码:
 ```
 JWWaterFallLayout *layout = [[JWWaterFallLayout alloc] init];
 layout.minimumLineSpacing = 10;
